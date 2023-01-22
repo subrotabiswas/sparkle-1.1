@@ -1,0 +1,851 @@
+/* Bootstrap lisnks */
+@import url("bootstrap/bootstrap.min.css");
+
+@import url("bootstrap/bootstrap-grid.min.css");
+
+@import url("bootstrap/bootstrap-reboot.min.css");
+
+@import url("bootstrap/bootstrap-utilities.min.css");
+
+/* Font Awesome Icon link of Free 6.1.1 */
+/* @import url("font-awesome/fontawesome.min.css"); */
+
+/* @import url("font-awesome/all.css"); */
+
+/* ------------------------------------------------------------- */
+
+
+
+/* Start All Custom CSS  */
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	letter-spacing: .5px;
+}
+
+/* All Button Custom CSS */
+a:focus {
+	box-shadow: none!important;
+	text-decoration: none;
+}
+
+/* All Content Body Text Custom CSS */
+.content-body-text {
+	font-size: 12px;
+	font-weight: 400;
+	color: #707070;
+	text-align: center;
+	line-height: 24px;
+}
+
+/* All Section Title Custom CSS */
+.section-title {
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	color: #1b1b1b;
+	padding: 30px 0;
+	text-align: center;
+}
+
+/* All Section Body Text Custom CSS */
+.section-body-text {
+	font-size: 15px;
+	line-height: 32px;
+	color: #707070;
+	text-align: center;
+	letter-spacing: .5px;
+}
+
+/* Start Top navigation Bar Custom CSS */
+.top-nav {
+	position: absolute;
+	z-index: 10;
+	padding-top: 20px!important;
+	padding-bottom: 20px;
+	background-color: #fff;
+	width: 100%;
+	border-bottom: 1px solid #f4f4f4;
+}
+
+/* Start Logo Part Custom CSS */
+.logo {
+	padding: 0;
+	margin: 0;
+}
+
+.logo>img {
+	max-height: 46px;
+}
+
+
+/* Nvabar Button Custom CSS */
+.nav-button {
+	justify-content: end;
+}
+
+.nav-button>ul>li>a:hover {
+	color: #ffe500!important;
+}
+
+
+/* Start Slider Part Custom CSS */
+.caption-item {
+	left: 50%;
+	width: 100%;
+	transform: translate(-50%, -100%);
+}
+
+.slider>div>div>div>img {
+	height: 100vh;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.slider .caption-item h3 {
+	font-size: 20px;
+	font-weight: 400;
+	color: #fff;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+.slider .caption-item p {
+	font-size: 13px;
+	color: #fff;
+	font-weight: 400;
+	letter-spacing: 4px;
+	margin-bottom: 45px;
+}
+
+/* slider button CSS */
+.slider .caption-item a{
+	font-size: 10px;
+	font-weight: 600;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	color: #1b1b1b;
+	background: #ffe500;
+	border-radius: 0;
+	padding: 14px 32px;
+}
+
+.slider .caption-item a:hover {
+	color: #fff;
+	transition: all 0.3s ease;
+}
+
+/* Slider page down button CSS */
+.slider .page-down {
+	text-align: center;
+	width: 100%;
+	bottom: 30px;
+	position: absolute;
+	z-index: 9;
+}
+
+/* Page Overview Section Custorm CSS Start */
+.page-overview {
+	padding: 160px 0;
+	background-color: #ffe500;
+}
+
+.page-overview>div {
+	max-width: 600px;
+	text-align: center;
+}
+
+.page-overview>div>img {
+	margin-bottom: 90px;
+}
+
+.page-overview>div>p {
+	font-size: 15px;
+	color: #555;
+	line-height: 32px;
+}
+
+/* Start Service section Custom CSS */
+.service {
+	display: block;
+	background-color: #f4f4f4;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+/* Start Section head Custom CSS */
+.section-head {
+	text-align: center;
+	max-width: 770px;
+	margin: auto;
+	padding-top: 50px;
+	padding-bottom: 25px;
+}
+
+.section-head h3 {
+	font-size: 20px;
+	letter-spacing: 10px;
+	padding: 30px 0;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #1b1b1b;
+}
+
+.section-head p {
+	font-size: 15px;
+	color: #707070;
+	letter-spacing: .5px;
+	line-height: 32px;
+}
+
+/* Start Card Custom CSS */
+.service .card-info {
+	text-align: center;
+	padding: 25px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	border: none;
+	border-radius: 0;
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.service .card-info .img {
+	padding:  15px;
+}
+
+.service .card-info h4 {
+	font-size: 15px;
+	color: #1b1b1b;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	line-height: 24px;
+	margin-bottom: 30px;
+}
+
+.service .card-info p {
+	font-size: 12px;
+	color: #707070;
+	letter-spacing: .5px;
+	line-height: 24px;
+	margin: 0;
+}
+
+/* Start Service progress CSS */
+.service-progress {
+	background-color: #fff;
+	padding: 10px 15px;
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.service-progress>h4 {
+	font-size: 13px;
+	color: #1b1b1b;
+}
+
+.service-progress>div {
+	margin: 15px 0;
+	max-height: 5px;
+	border-radius: 0;
+}
+
+/* Start Tiles section Custom CSS */
+.tiles {
+	background-image: url('images/tiles-bg.jpg');
+	background-repeat: repeat;
+	background-position: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	background-attachment: fixed;
+}
+
+.mask {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.tiles-item {
+	margin-top: 12px;
+	margin-bottom: 12px;
+	background-color: #ffe500;
+	padding: 15px;
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+	transition: all 0.5s ease;
+}
+
+
+.tiles-item .counter {
+	font-family: 'Montserrat';
+	font-size: 15px;
+	font-weight: 600;
+	color: #1b1b1b;
+	text-align: center;
+}
+
+
+
+.tiles-item h5 {
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #1d1d1d;
+	font-weight: 500;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+/* Start Portfolio Section Custom CSS */
+.portfolio {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.portfolio>div>div {
+	align-items: center;
+	text-align: center;
+	margin-top: 35px;
+}
+
+.portfolio-sides {
+	border-top: solid 1px #6f6f6f;
+	border-bottom: solid 1px #6f6f6f;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.portfolio-sides h4 {
+	font-size: 13px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #1b1b1b;
+	margin: 0;
+}
+
+/* Start Popular Brand section Custom CSS */
+.popular-brands {
+	background-color: #fff;
+	margin: 50px 0;
+	overflow: hidden;
+}
+
+.popular-brands>div {
+	background-color: #fff;
+}
+
+/* Start Brand Card CSS */
+.brand-card{
+	cursor: pointer;
+	display: block;
+	position: relative;
+}
+
+.brand-card img {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+
+
+.brand-card:hover>.img-hover {
+	opacity: 1.0;
+	background-color: #ffe500;
+}
+
+.img-hover {
+	opacity: 0;
+	position: absolute;
+	display: flex;
+	top: 0;
+	left: 0;
+	height: 100%;
+	padding: 10px;
+	text-align: center;
+	overflow: hidden;
+	margin-left: 4px;
+	margin-right: 4px;
+	flex-direction: column;
+	justify-content: center;
+	transition: all 0.5s ease;
+}
+
+.img-hover h4 {
+	font-size: 13px;
+	margin-bottom: 15px;
+	font-weight: 600;
+	color: #1b1b1b;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.img-hover p {
+	font-size: 12px;
+	color: #555;
+	line-height: 24px;
+	letter-spacing: 0.5px;
+	margin: 0;
+}
+
+/* Popular brand button CSS */
+.brand-btn {
+	background-color: #fff!important;
+	display: block;
+	text-align: center;
+	padding-top: 80px;
+}
+
+.brand-btn>a {
+	color: #1b1b1b;
+	font-size: 10px;
+	font-weight: 700;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	background-color: #ffe500;
+	border-radius: 0;
+	padding: 15px 30px;
+}
+
+.brand-btn>a:hover {
+	color: #fff;
+	transition: all 0.3s ease;
+}
+
+/* Start Team Members Section Custom CSS */
+.team {
+	background-color: #fff;
+	padding-bottom: 80px;
+}
+
+.member-card {
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.member-card>.member-img>img{
+	border-radius: 0;
+}
+
+.member-img {
+	position: relative;
+	background-color: #ffe500;
+}
+
+.member-img:hover>img {
+	opacity: 0.3;
+	transition: all 0.5s ease;
+}
+
+.member-img:hover>.member-hover {
+	opacity: 1;
+}
+
+.member-hover {
+	width: 100%;
+	position: absolute;
+	opacity: 0;
+	font-size: 0;
+	letter-spacing: 0;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: all 0.5s ease;
+}
+
+.member-hover>a {
+	font-size: 18px;
+	padding: 5px;
+	line-height: 24px;
+	background-color: #1a1a1a;
+	color: #fff;
+	border-radius: 50%;
+	height: 36px;
+	width: 36px;
+	margin: 0 5px;
+}
+
+.member-hover>a:hover {
+	color: #1a1a1a;
+	background-color: #fff;
+	transition: all 0.5s ease;
+}
+
+.member-card>a {
+	display: block;
+	font-size: 15px;
+	color: #fff;
+	font-weight: 500;
+	letter-spacing: 4px;
+	background-color: #1b1b1b;
+	border-radius: 0;
+}
+
+.member-card>a:hover {
+	color: #1b1b1b;
+	background-color: #ffe500;
+	transition: all 0.3s ease;
+}
+
+.member-card>p {
+	font-size: 12px;
+	color: #707070;
+	padding: 20px;
+	text-align: center;
+	line-height: 24px;
+}
+
+/* Start Client Testimonial Section Custom CSS */
+.testimonial {
+	position: relative;
+}
+
+.testimonial>.page-line {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	z-index: -4;
+}
+
+.testimonial>.page-line>hr {
+	height: 240px;
+	margin: 0;
+	background-color: #ffe500;
+	opacity: 1;
+}
+
+/* client Project & Details CSS */
+.client-project {
+	cursor: pointer;
+	position: relative;
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.client-project>img {
+	width: 100%;
+}
+
+.client-project:hover .project-detail{
+	opacity: 1;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.client-project>.project-detail {
+	display: flex;
+	opacity: 0;
+	padding: 50px 70px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	overflow: hidden;
+	flex-direction: column;
+	justify-content: center;
+	transition: all 0.5s ease;
+}
+
+.client-project>.project-detail>p {
+	color: #fff;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 0.5px;
+	text-align: justify;
+}
+
+.client-project>.project-detail>p:last-child {
+	margin: 0;
+}
+
+/* Client Testimonial CSS */
+
+.testimonial {
+	margin-bottom: 55px;
+}
+
+.client-testimonial {
+	margin: 60px 100px;
+	display: block;
+}
+
+.client-testimonial p {
+	font-size: 12px;
+	color: #707070;
+	line-height: 24px;
+	letter-spacing: 0.5px;
+	text-align: center;
+}
+
+.client-testimonial h5 {
+	font-size: 12px;
+	font-weight: 600;
+	color: #1b1b1b;
+	letter-spacing: 0.5px;
+	text-align: center;
+	font-style: italic;
+}
+
+/* Start Footer Custom CSS */
+.footer {
+	color: #fff;
+	padding-top: 80px;
+	padding-bottom: 40px;
+	background-color: #1a1a1a;
+	font-size: 12px;
+	line-height: 24px;
+}
+
+.footer img {
+	margin-left: 15px;
+	margin-bottom: 20px;
+}
+
+.footer div>p {
+	margin-bottom: 30px;
+}
+
+.footer h5 {
+	font-size: 15px;
+	color: #fff;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.footer ul>li>a {
+	color: #fff;
+	font-size: 12px;
+	line-height: 24px;
+	transition: all 0.3s ease;
+}
+
+.footer ul>li>a:hover {
+	color: #ffe600;
+}
+
+.footer div>a {
+	font-size: 13px;
+	color: #1b1b1b;
+	background-color: #ffe600;
+	line-height: 24px;
+	padding: 10px;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer div>a:hover {
+	background-color: #fff;
+}
+
+/* Footer Social Button Custom CSS */
+.footer .social_buttons {
+	margin-top: 30px;
+}
+
+.footer .social_buttons a {
+	padding: 5px;
+	background-color: #fff;
+	color: #1a1a1a;
+	border-radius: 50%;
+	height: 36px;
+	width: 36px;
+	border: none;
+	margin-right: 10px;
+	font-size: 18px;
+	line-height: 28px;
+	transition: all 0.3s ease;
+}
+
+.footer .social_buttons a:hover {
+	color: #1a1a1a;
+	background-color: #ffe600;
+}
+
+
+/* Media Screen 1400px Custom CSS  */
+@media (max-width: 1400px) {
+	.client-project>.project-detail {
+		padding: 50px;
+	}
+
+	.client-testimonial {
+		margin-right: 80px;
+		margin-left: 80px;
+	}
+	.testimonial>.page-line>hr {
+		height: 190px;
+	}
+}
+
+/* Media Screen 1200px Custom CSS */
+@media (max-width: 1200px) {
+	.img-hover h4 {
+		margin-bottom: 10px;
+	}
+
+	.img-hover p {
+		line-height: 18px;
+	}
+
+	.client-project>.project-detail {
+		padding: 30px;
+	}
+
+	.client-project>.project-detail>p {
+		line-height: 22px;
+	}
+
+	.client-testimonial {
+		margin: 50px 40px;
+	}
+
+	.testimonial>.page-line>hr {
+		height: 150px;
+	}
+}
+
+/* Media Screen 992px Custom CSS */
+@media (max-width: 992px) {
+	.img-hover h4 {
+		margin-bottom: 15px;
+	}
+
+	.img-hover p {
+		line-height: 24px;
+	}
+
+	.testimonial {
+		padding-top: 40px;
+		padding-bottom: 40px;
+		margin-bottom: 0;
+	}
+
+	.client-testimonial p {
+		color: #555;
+	}
+
+	.client-project>.project-detail {
+		padding: 16px;
+	}
+
+	.client-project>.project-detail>p {
+		line-height: 13px;
+	}
+
+	.client-project>.project-detail>p:first-child {
+		margin-bottom: 10px;
+	}
+
+	.testimonial>.page-line>hr {
+		height: 100%;
+	}
+}
+
+/* Media Screen 768px Custom CSS */
+@media (max-width: 768px) {
+	/* Navbar media css */
+	.top-nav div a {
+		display: block!important;
+	}
+
+	.nav-button {
+		position: absolute;
+		z-index: 1002;
+		top: 87px;
+		width: 100%;
+		left: 0;
+	}
+
+	.nav-button>ul {
+		padding: 40px 0;
+		height: 100vh;
+		background-color: #707070;
+		text-align: center;
+		flex-direction: column!important;
+		width: 100%;
+	}
+
+	.nav-button>ul>li>a {
+		color: #fff!important;
+	}
+
+	/* Slider media CSS */
+	.caption-item {
+		top: 0;
+		transform: translate(-50%, 0);
+	}
+
+	.caption-item a {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.caption-item h3, .caption-item p {
+		display: none;
+	}
+
+	/* Page Overview Media CSS */
+	.page-overview {
+		padding: 80px 0;
+	}
+
+	.page-overview>div>img {
+		margin-bottom: 40px;
+	}
+
+	/* Testimonial Section CSS */
+	.client-project>.project-detail {
+		padding: 40px 40px;
+	}
+
+	.client-project>.project-detail>p {
+		font-size: 12px;
+		line-height: 24px;
+	}
+
+	/* Portfolio media CSS */
+	.portfolio>div>div>div>img {
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+
+	/* Footer Section CSS */
+	.footer {
+		text-align: center;
+	}
+
+	.footer div>h5 {
+		margin-top: 40px;
+	}
+
+	.footer div>p:last-child {
+	margin-bottom: 0;
+}
+
+	.footer .social_buttons {
+		justify-content: center;
+	}
+	
+}
+
+/* Media Screen 576px Custom CSS */
+@media (max-width: 576px) {
+	.client-project>.project-detail {
+		padding: 20px 20px;
+	}
+
+	.client-project>.project-detail>p {
+		line-height: 14px;
+		font-size: 10px;
+	}
+
+	.slider .page-down {
+		bottom: 100px;
+	}
+}
